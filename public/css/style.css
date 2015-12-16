@@ -52,6 +52,10 @@
     }
 }
 
+.row.no-pad > [class*='col-'] {
+  padding-right:0;
+  padding-left:0;
+}
 
 /********** SHARED **********/
 
