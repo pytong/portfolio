@@ -93,6 +93,15 @@ p {
   padding-bottom: 4em;
 }
 
+.frontend-projects {
+  border: solid 1px #F2F2F2;
+  margin-bottom: 6em;
+}
+
+.project img {
+  width: 100%;
+}
+
 .social {
   padding-top: 3.3em;
   padding-bottom: 3.3em;
