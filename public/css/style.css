@@ -98,8 +98,13 @@ p {
   margin-bottom: 6em;
 }
 
-.project img {
-  width: 100%;
+.project-overlay {
+  background-color: #2F2F2F;
+  position: absolute;
+  opacity: 0.6;
+  top: 0;
+  left: 0;
+  display:none;
 }
 
 .social {
