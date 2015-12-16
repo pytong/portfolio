@@ -1,6 +1,6 @@
 .social {
-  padding-top: 3.2em;
-  padding-bottom: 3.2em;
+  padding-top: 3.3em;
+  padding-bottom: 3.3em;
   background-color: #f2f2f2;
 }
 
@@ -10,7 +10,13 @@
 }
 
 .footerwrap {
-    padding-top: 70px;
-    padding-bottom: 50px;
-    background-color: #2f2f2f;
+  line-height: 10em;
+  background-color: #2f2f2f;
+  color: #f2f2f2;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.myname {
+  font-size: 1.5em;
 }
