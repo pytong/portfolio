@@ -1,0 +1,16 @@
+.social {
+  padding-top: 3.2em;
+  padding-bottom: 3.2em;
+  background-color: #f2f2f2;
+}
+
+.social i {
+  font-size: 3.5em;
+  color: #4a4a4a;
+}
+
+.footerwrap {
+    padding-top: 70px;
+    padding-bottom: 50px;
+    background-color: #2f2f2f;
+}
