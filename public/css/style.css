@@ -1,7 +1,54 @@
+/********** FONTS **********/
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../fonts/helveticaneue.eot"), /* IE9 Compat Modes */
+       url("../fonts/helveticaneue.woff2") format("woff2"), /* Super Modern Browsers */
+       url("../fonts/helveticaneue.woff") format("woff"), /* Pretty Modern Browsers */
+       url("../fonts/helveticaneue.ttf") format("truetype"); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Regular.eot"), /* IE9 Compat Modes */
+       url("../fonts/Lato-Regular.woff2") format("woff2"), /* Super Modern Browsers */
+       url("../fonts/Lato-Regular.woff") format("woff"), /* Pretty Modern Browsers */
+       url("../fonts/Lato-Regular.ttf") format("truetype"); /* Safari, Android, iOS */
+}
+
+/********** SHARED **********/
+
+.centered {
+    text-align: center;
+}
+
+
+/********** MAIN **********/
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #5a5a5a;
+}
+
+p {
+    padding: 0;
+    margin-bottom: 12px;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #666;
+    margin-top: 10px;
+}
+
 .headerwrap {
-  background: url(../img/GoldenGateBridge.png) no-repeat center top;
+  background: url("../img/GoldenGateBridge.png") no-repeat center top;
   margin-top: -30px;
   padding-top: 350px;
+}
+
+.projects {
+  padding-top: 4em;
+  padding-bottom: 4em;
 }
 
 .social {
@@ -11,8 +58,8 @@
 }
 
 .social i {
-  margin-left: 0.1em;
-  margin-right: 0.1em;
+  margin-left: 0.2em;
+  margin-right: 0.2em;
   font-size: 3.5em;
   color: #4a4a4a;
 }
