@@ -1,3 +1,9 @@
+.headerwrap {
+  background: url(../img/GoldenGateBridge.png) no-repeat center top;
+  margin-top: -30px;
+  padding-top: 350px;
+}
+
 .social {
   padding-top: 3.3em;
   padding-bottom: 3.3em;
