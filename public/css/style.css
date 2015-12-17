@@ -99,14 +99,30 @@ p {
 }
 
 .project-overlay {
-  background-color: #2F2F2F;
+  display: none;
+  background-color: #428BA9;
+  color: #FFF;
   position: absolute;
-  opacity: 0.6;
+  opacity: 0.85;
   height: 100%;
   width: 100%;
   top: 0;
   left: 0;
-  display:none;
+}
+
+.project {
+  position: relative;
+}
+
+.project-overlay i {
+  border-radius: 0.2em;
+  border: solid 2px;
+  padding: 0.8em 1.6em;
+}
+
+.icons {
+  position: absolute;
+  top: 205px;
 }
 
 .social {
