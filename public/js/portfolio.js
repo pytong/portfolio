@@ -1,19 +1,22 @@
 "use strict";
 
 $(function() {
-  $(".project").mouseenter(function(event) {
-    let projectId = $(event.target).parent().data("id"),
+
+  function showProjectDetails() {
+    console.log(this);
+    let projectId = $(this).closest(".project").data("id"),
       projectEl = $(`.${projectId}`),
       titleEl = projectEl.find(".title"),
       iconsEl = projectEl.find(".icons");
 
     projectEl.find(".project-overlay").fadeIn(500);
-    titleEl.animate({"top": "60px"}, 500);
-    iconsEl.animate({"top": "80px"}, 650);
-  });
+    titleEl.animate({"top": "60px"}, 300);
+    iconsEl.animate({"top": "80px"}, 400);
+  };
 
-  $(".project").mouseleave(function(event) {
-    let projectId = $(event.target).parent().data("id"),
+  function hideProjectDetails() {
+    console.log(this);
+    let projectId = $(this).closest(".project").data("id"),
       projectEl = $(`.${projectId}`),
       titleEl = projectEl.find(".title"),
       iconsEl = projectEl.find(".icons");
@@ -24,6 +27,14 @@ $(function() {
 
     titleEl.css("top", "-30px");
     iconsEl.css("top", "205px");
-    projectEl.find(".project-overlay").css("display", "none");
+    projectEl.find(".project-overlay").hide();
+  }
+
+  $(".project").hoverIntent({
+      over: showProjectDetails,
+      out: hideProjectDetails,
+      sensitivity: 1
   });
+
+
 });
