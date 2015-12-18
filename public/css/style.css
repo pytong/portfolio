@@ -63,6 +63,10 @@
     text-align: center;
 }
 
+a:link{color:inherit}
+a:active{color:inherit}
+a:visited{color:inherit}
+a:hover{color:inherit}
 
 /********** MAIN **********/
 
@@ -115,9 +119,9 @@ p {
 }
 
 .project .title {
-  position: relative;
+  position: absolute;
   margin-top: -30px;
-  font-size: 1.6em;
+  font-size: 1.2em;
 }
 
 .project-overlay i {
