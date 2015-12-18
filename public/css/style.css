@@ -114,6 +114,12 @@ p {
   position: relative;
 }
 
+.project .title {
+  position: relative;
+  margin-top: -30px;
+  font-size: 1.6em;
+}
+
 .project-overlay i {
   border-radius: 0.2em;
   border: solid 2px;
