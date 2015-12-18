@@ -118,8 +118,13 @@ p {
   position: relative;
 }
 
+.project img {
+  margin: 0 auto;
+}
+
 .project .title {
   position: absolute;
+  width: 100%;
   margin-top: -30px;
   font-size: 1.2em;
 }
@@ -132,6 +137,7 @@ p {
 
 .icons {
   position: absolute;
+  width: 100%;
   top: 205px;
 }
 
