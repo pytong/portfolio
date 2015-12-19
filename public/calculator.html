@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Pomodoro Clock</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <link href="css/calculator.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <!-- CALCULATOR -->
+    <div class='container'>
+      <div class="row">
+        <div class="col-xs-0 col-md-2"></div>
+        <div class="calculator text-center col-xs-12 col-md-6 col-md-offset-1">
+          <div class="row">
+            <div class="col-xs-8 col-xs-offset-2 col-md-8 col-md-offset-2 well">
+              <input type="text" class="display" disabled>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-2 col-xs-offset-2 col-md-2 col-md-offset-2 key all-clear well">AC</div>
+            <div class="col-xs-2 col-md-2 key clear well">CE</div>
+            <div class="col-xs-2 col-md-2 key well">%</div>
+            <div class="col-xs-2 col-md-2 key well operator" data-operator="divide">&#247;</div>
+          </div>
+          <div class="row">
+            <div class="col-xs-2 col-xs-offset-2 col-md-2 col-md-offset-2 key number well">7</div>
+            <div class="col-xs-2 col-md-2 key well number">8</div>
+            <div class="col-xs-2 col-md-2 key well number">9</div>
+            <div class="col-xs-2 col-md-2 key well operator" data-operator="multiply">x</div>
+          </div>
+          <div class="row">
+            <div class="col-xs-2 col-xs-offset-2 col-md-2 col-md-offset-2 key number well">4</div>
+            <div class="col-xs-2 col-md-2 key well number">5</div>
+            <div class="col-xs-2 col-md-2 key well number">6</div>
+            <div class="col-xs-2 col-md-2 key well operator" data-operator="minus">-</div>
+          </div>
+          <div class="row">
+            <div class="col-xs-6 col-xs-offset-2 col-md-6 col-md-offset-2">
+              <div class="row">
+                <div class="col-xs-4 key well number">1</div>
+                <div class="col-xs-4 key well number">2</div>
+                <div class="col-xs-4 key well number">3</div>
+              </div>
+              <div class="row">
+                <div class="col-xs-4 key well number">0</div>
+                <div class="col-xs-4 key well number">.</div>
+                <div class="col-xs-4 key well equal">=</div>
+              </div>
+            </div>
+            <div class="col-xs-2 col-md-2">
+              <div class="row">
+                <div class="col-xs-2 key plus well operator" data-operator="plus">+</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <div class="row text-center">
+           Frontend | <a href="https://gist.github.com/pytong/f68fea5eeb8fe2ea4b26" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <script src="js/calculator.js"></script>
+  </body>
+</html>
+
