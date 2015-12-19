@@ -43,3 +43,7 @@
 .clear, .all-clear {
   background: #B43546;
 }
+
+.footer {
+  margin: 5em auto;
+}
