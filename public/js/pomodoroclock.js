@@ -199,7 +199,7 @@ function PomodoroClock() {
             lastCountdownType = "session";
           }
           _this.countDown();
-          _this.playSound("http://soundbible.com/grab.php?id=1296&type=mp3");
+          _this.playSound("audio/horse.mp3");
         }
       }, 1000);
     }
