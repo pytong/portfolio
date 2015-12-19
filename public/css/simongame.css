@@ -1,0 +1,59 @@
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+h1 {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  font-size: 5em;
+  font-weight: bold;
+}
+
+.note {
+  cursor: pointer;
+  border: solid 10px;
+  border-radius: 50px;
+  height: 250px;
+}
+
+.note0 {
+  background: #0f0;
+}
+
+.note1 {
+  background: #f00;
+}
+
+.note2 {
+  background: #ff0;
+}
+
+.note3 {
+  background: #00f;
+}
+
+.count {
+  margin-top: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #32050C;
+  border-radius: 10px;
+  color: #DC0D29;
+  font-size: 30px;
+}
+
+.restart {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.strict {
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+.footer {
+  margin: 5em auto;
+}
