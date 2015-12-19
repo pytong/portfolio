@@ -1,0 +1,32 @@
+body {
+  background: #5cf;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.title {
+  margin: 50px 0;
+  font-size: 50px;
+}
+
+.break, .session {
+  font-size: 24px;
+}
+
+.break .incr, .break .decr, .session .incr, .session .decr {
+  cursor: pointer
+}
+
+.clock {
+  height: 300px;
+  border-radius: 300px;
+  font-size: 24px;
+  color: #fff;
+  line-height: 150px;
+  background: green;
+}
+
+.footer {
+  margin: 5em auto;
+}

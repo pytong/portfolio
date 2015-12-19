@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Pomodoro Clock</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <link href="css/pomodoroclock.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <!-- POMODORO CLOCK -->
+    <div class='container'>
+      <div class="row">
+        <div class="col-xs-6 col-xs-offset-3 text-center">
+          <h1 class="title">Pomodoro Clock</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-3 col-xs-offset-3 text-center">
+          <div class="break">
+            <div class="description">Break</div>
+            <span class="decr">-</span>
+            <span class="duration">5</span>
+            <span class="incr">+</span>
+          </div>
+        </div>
+        <div class="col-xs-3 text-center">
+          <div class="session">
+            <div class="description">Session</div>
+            <span class="decr">-</span>
+            <span class="duration">25</span>
+            <span class="incr">+</span>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-4 col-xs-offset-4 text-center">
+           <div class="clock"></div>
+        </div>
+      </div>
+    </div>
+    <div id="soundclip"></div>
+
+
+    <div class="footer">
+      <div class="container">
+        <div class="row text-center">
+           Frontend | <a href="https://gist.github.com/pytong/76ab71b7985ed8c715bb" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <script src="js/pomodoroclock.js"></script>
+  </body>
+</html>
+
