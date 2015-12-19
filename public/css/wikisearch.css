@@ -1,0 +1,42 @@
+body {
+  background: #2397CE;
+}
+
+a:link, a:hover, a:visited, a:active {
+  color: #000;
+  text-decoration: none;
+}
+
+.searchbox {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.random {
+  margin-bottom: 30px;
+  padding: 5px 30px;
+}
+
+.result {
+  border-radius: 5px;
+  background: #fff;
+}
+
+.result:hover {
+  background: #eee;
+}
+
+.title {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 1.4em;
+}
+
+.extract {
+  margin-bottom: 15px;
+}
+
+.footer {
+  margin: 5em auto;
+}
