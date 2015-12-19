@@ -2,12 +2,12 @@ function SimonGame() {
   var sequence = [],
       userInput = [],
       notes = [
-        new Audio("https://s3.amazonaws.com/freecodecamp/simonSound1.mp3"),
-        new Audio("https://s3.amazonaws.com/freecodecamp/simonSound2.mp3"),
-        new Audio("https://s3.amazonaws.com/freecodecamp/simonSound3.mp3"),
-        new Audio("https://s3.amazonaws.com/freecodecamp/simonSound4.mp3")
+        new Audio("audio/simonSound1.mp3"),
+        new Audio("audio/simonSound2.mp3"),
+        new Audio("audio/simonSound3.mp3"),
+        new Audio("audio/simonSound4.mp3")
       ],
-      victorySoundTrack = new Audio("http://soundbible.com/grab.php?id=1003&type=mp3"),
+      victorySoundTrack = new Audio("audio/tada.mp3"),
       hightlightDuration = 300,
       durationBetweenNote = 1000,
       currentNoteIndex;
