@@ -62,17 +62,17 @@ function WeatherApp() {
       var icon;
 
       if(description.match(/cloud/i)) {
-        icon = "http://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/48/Status-weather-clouds-icon.png";
+        icon = "img/weather/clouds-icon.png";
       } else if(description.match(/sun/i)) {
-        icon = "http://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/48/Status-weather-clear-icon.png";
+        icon = "img/weather/clear-icon.png";
       } else if(description.match(/thunder/i)) {
-        icon = "http://icons.iconarchive.com/icons/custom-icon-design/weather/48/thunder-icon.png";
+        icon = "img/weather/thunder-icon.png";
       }  else if(description.match(/rain/i)) {
-        icon = "http://icons.iconarchive.com/icons/aha-soft/free-3d-glossy/48/Weather-icon.png";
+        icon = "img/weather/rain-icon.png";
       } else if(description.match(/snow/i)) {
-        icon = "http://icons.iconarchive.com/icons/paomedia/small-n-flat/48/snow-flake-icon.png";
+        icon = "img/weather/snow-icon.png";
       } else {
-        icon = "http://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/48/Status-weather-clear-icon.png";
+        icon = "img/weather/clear-icon.png";
       }
       $(".icon").attr("src", icon);
     },
@@ -81,17 +81,17 @@ function WeatherApp() {
       var backgroundImage;
 
       if(description.match(/cloud/i)) {
-        backgroundImage = "http://randomwallpapers.net/fresh-air-landscape-cloudy-1920x1200-wallpaper111439.jpg";
+        backgroundImage = "img/weather/cloudy-wallpaper.jpg";
       } else if(description.match(/sun/i)) {
-        backgroundImage = "http://7-themes.com/data_images/out/57/6965058-sunny-breeze.jpg";
+        backgroundImage = "img/weather/sunny-wallpaper.jpg";
       } else if(description.match(/thunder/i)) {
-        backgroundImage = "https://lh4.ggpht.com/_9i0N8KVLzgFGkxeanBrQo97OHmd-LCfjon0g36BKQyFpfT7326d598Ox_gqPf4j4lQ=h900";
+        backgroundImage = "img/weather/thunder-wallpaper.jpg";
       }  else if(description.match(/rain/i)) {
-        backgroundImage = "http://images3.alphacoders.com/892/89289.jpg";
+        backgroundImage = "img/weather/rain-wallpaper.jpg";
       }  else if(description.match(/snow/i)) {
-        backgroundImage = "http://www.mrwallpaper.com/wallpapers/sunset-snow-landscape.jpg";
+        backgroundImage = "img/weather/snow-wallpaper.jpg";
       } else {
-        backgroundImage = "http://7-themes.com/data_images/out/57/6965058-sunny-breeze.jpg";
+        backgroundImage = "img/weather/sunny-wallpaper.jpg";
       }
 
       $(".bg").attr('src', backgroundImage);
