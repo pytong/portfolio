@@ -1,0 +1,94 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #6D6D6D;
+  min-width: 550px;
+}
+
+.resume-title {
+  margin-top: 1em;
+  font-size: 4em;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #373432;
+}
+
+.border {
+  background: none repeat scroll 0 0 #999;
+  display: block;
+  height: 0.7em;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  width: 7.5em;
+}
+
+.introduction {
+  font-size: 1.2em;
+  line-height: 1.6em;
+}
+
+.timeline {
+    background: url("../img/line.gif") repeat-y scroll 109px 0 transparent;
+    margin-left: 50px;
+}
+
+.timeline-item {
+    margin-bottom: 30px;
+    overflow: hidden;
+    position: relative;
+}
+
+.timeline-head {
+    background: none repeat scroll 0 0 #FBA24E;
+    border-radius: 136px 136px 136px 136px;
+    color: #FFFFFF;
+    cursor: pointer;
+    float: left;
+    font-size: 28px;
+    height: 46px;
+    line-height: 46px;
+    margin-top: 20px;
+    text-align: center;
+    width: 46px;
+    margin-left: 30px;
+}
+
+.timeline-arrow {
+    display: block;
+    position: relative;
+}
+
+.timeline-arrow i {
+    background: none repeat scroll 0 0 #F5F5F5;
+    border-left: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+    display: block;
+    height: 10px;
+    left: 86px;
+    position: absolute;
+    top: 37px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    width: 10px;
+    z-index: 10;
+}
+
+.timeline-head-content {
+    background-color: #F5F5F5;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-left: 15px;
+    padding: 10px 30px;
+    position: relative;
+    width: 70%;
+}
+
+.timeline-head-content h3 {
+    color: #363636;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
