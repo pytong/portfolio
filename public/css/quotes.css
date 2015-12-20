@@ -1,0 +1,66 @@
+a:link{color:inherit}
+a:active{color:inherit}
+a:visited{color:inherit}
+a:hover{color:inherit}
+
+body {
+  font-family: Georgia, serif;
+}
+
+.bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+
+h1 {
+  background: rgba(255,255,255,0.30);
+  border-radius: 35px;
+  color: #000;
+  font-size: 60px;
+}
+
+h2 {
+  background: rgba(180,180,180,0.50);
+  border-radius: 30px;
+  color: #000;
+  font-size: 32px;
+}
+
+.intro {
+  border-radius: 35px;
+  margin-bottom: 20px;
+  background: rgba(180,180,180,0.50);
+  font-size: 24px;
+}
+
+.quote-text, .quote-author {
+  margin-top: 20px;
+  background: rgba(220,220,180,0.50);
+  font-size: 22px;
+  font-style: italic;
+}
+
+.quote-text:before, .quote-text:after {
+  content: "\"";
+}
+
+.quote-author:before {
+  content: "- ";
+}
+
+.new-quote.btn {
+  border-radius: 30px;
+  font-family: Verdana, Geneva, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.footer {
+  margin: 5em auto;
+  color: #fff;
+}

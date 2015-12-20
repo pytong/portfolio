@@ -2,16 +2,16 @@
 
 @font-face {
   font-family: "Helvetica Neue";
-  src: url("../fonts/helveticaneue.eot"), /* IE9 Compat Modes */
-       url("../fonts/helveticaneue.woff2") format("woff2"), /* Super Modern Browsers */
-       url("../fonts/helveticaneue.woff") format("woff"), /* Pretty Modern Browsers */
-       url("../fonts/helveticaneue.ttf") format("truetype"); /* Safari, Android, iOS */
+  src: url("../fonts/HelveticaNeue.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/HelveticaNeue.woff2") format("woff2"), /* Super Modern Browsers */
+       url("../fonts/HelveticaNeue.woff") format("woff"), /* Pretty Modern Browsers */
+       url("../fonts/HelveticaNeue.ttf") format("truetype"); /* Safari, Android, iOS */
 }
 
 @font-face {
   font-family: "Lato";
-  src: url("../fonts/Lato-Regular.eot"), /* IE9 Compat Modes */
-       url("../fonts/Lato-Regular.woff2") format("woff2"), /* Super Modern Browsers */
+  src: url("../fonts/Lato-Regular.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/Lato-Regular.woff2") format("woff2"), /* Super Modern Browsers */
        url("../fonts/Lato-Regular.woff") format("woff"), /* Pretty Modern Browsers */
        url("../fonts/Lato-Regular.ttf") format("truetype"); /* Safari, Android, iOS */
 }
@@ -92,7 +92,7 @@ p {
   padding-top: 350px;
 }
 
-.frontend-projects-intro {
+.fullstack-projects-intro, .frontend-projects-intro {
   padding-top: 4em;
   padding-bottom: 4em;
 }
