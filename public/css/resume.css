@@ -1,7 +1,7 @@
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #F5F5F5;
   color: #6D6D6D;
-  min-width: 550px;
 }
 
 .resume-title {
@@ -27,29 +27,27 @@ body {
 }
 
 .timeline {
-    background: url("../img/line.gif") repeat-y scroll 109px 0 transparent;
-    margin-left: 50px;
+    background: url("../img/line.gif") repeat-y scroll 33px 0 transparent;
 }
 
 .timeline-item {
-    margin-bottom: 30px;
     overflow: hidden;
     position: relative;
 }
 
 .timeline-head {
     background: none repeat scroll 0 0 #FBA24E;
-    border-radius: 136px 136px 136px 136px;
+    border-radius: 136px;
     color: #FFFFFF;
     cursor: pointer;
     float: left;
-    font-size: 28px;
+    font-size: 2.1em;
     height: 46px;
     line-height: 46px;
     margin-top: 20px;
     text-align: center;
     width: 46px;
-    margin-left: 30px;
+    margin-left: 10px;
 }
 
 .timeline-arrow {
@@ -63,7 +61,7 @@ body {
     border-top: 1px solid #CCCCCC;
     display: block;
     height: 10px;
-    left: 86px;
+    left: 66px;
     position: absolute;
     top: 37px;
     transform: rotate(-45deg);
@@ -88,7 +86,6 @@ body {
 
 .timeline-head-content h3 {
     color: #363636;
-    font-weight: normal;
     text-transform: uppercase;
 }
 
