@@ -3,7 +3,7 @@
 $(function() {
 
   function showProjectDetails() {
-    let projectId = $(this).closest(".project").data("id"),
+    var projectId = $(this).closest(".project").data("id"),
       projectEl = $(`.${projectId}`),
       titleEl = projectEl.find(".title"),
       iconsEl = projectEl.find(".icons");
@@ -14,7 +14,7 @@ $(function() {
   };
 
   function hideProjectDetails() {
-    let projectId = $(this).closest(".project").data("id"),
+    var projectId = $(this).closest(".project").data("id"),
       projectEl = $(`.${projectId}`),
       titleEl = projectEl.find(".title"),
       iconsEl = projectEl.find(".icons");
