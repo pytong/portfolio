@@ -97,7 +97,7 @@ p {
   padding-bottom: 4em;
 }
 
-.frontend-projects {
+.fullstack-projects, .frontend-projects {
   border: solid 1px #F2F2F2;
   margin-bottom: 6em;
 }
