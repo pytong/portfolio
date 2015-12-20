@@ -1,0 +1,49 @@
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.title {
+  font-size: 3em;
+  margin: 40px;
+}
+
+.posts {
+  margin-bottom: 100px;
+}
+
+.post {
+  padding-bottom: 20px;
+  border: solid 1px #ddd;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.post .headline {
+  min-height: 34px;
+  margin-bottom: 5px;
+}
+
+.post .story-image {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  min-height: 130px;
+  max-height: 130px;
+  max-width: 130px;
+}
+
+.likes {
+  margin-right: 10px;
+}
+
+.time-posted {
+  margin-top: 10px;
+}
+
+.username {
+  margin-bottom: 10px;
+}
+
+.footer {
+  margin: 5em auto;
+}
