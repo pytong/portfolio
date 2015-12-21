@@ -9,8 +9,18 @@ p {
   line-height: 25px;
 }
 
+.home-icon {
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-radius: 136px 136px 136px 136px;
+  background-color: #333;
+  color: #F2F2F2;
+  font-size: 2em;
+}
+
 .resume-title {
-  margin-top: 1em;
+  margin-top: 1.5em;
   font-size: 3em;
   font-weight: bold;
   text-transform: uppercase;
