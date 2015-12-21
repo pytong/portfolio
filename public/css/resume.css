@@ -9,14 +9,21 @@ p {
   line-height: 25px;
 }
 
-.home-icon {
+.home-icon, .download-icon {
   position: fixed;
   top: 0;
-  left: 0;
   border-radius: 136px 136px 136px 136px;
   background-color: #333;
   color: #F2F2F2;
   font-size: 2em;
+}
+
+.home-icon {
+  left: 0;
+}
+
+.download-icon {
+  left: 2em;
 }
 
 .resume-title {
