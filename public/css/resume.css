@@ -11,6 +11,7 @@ p {
 
 .home-icon, .download-icon {
   position: fixed;
+  z-index: 999;
   top: 0;
   border-radius: 136px 136px 136px 136px;
   background-color: #333;
