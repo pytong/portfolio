@@ -89,18 +89,14 @@ p {
   width: 70%;
 }
 
-.timeline-item-content {
-  cursor: pointer;
-}
-
 .timeline-head-content h3 {
-  color: #363636;
   text-transform: uppercase;
 }
 
 .timeline-item-content h3 {
-  font-weight: normal;
   color: #363636;
+  font-weight: normal;
+  cursor: pointer;
 }
 
 .timeline-item-trigger {
