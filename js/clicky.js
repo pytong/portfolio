@@ -1,3 +1,3 @@
 $(function(){
-  $("#clicky-tracking").load("_clicky.html");
+  $("body").load("_clicky.html");
 });
