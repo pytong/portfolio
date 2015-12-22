@@ -136,3 +136,25 @@ p {
   font-size: 1.6em;
   cursor: pointer;
 }
+
+.skill-wrap {
+  margin: 10px 0;
+  border-radius: 3px;
+  width: 100%;
+  background-color: #ccc;
+}
+
+.skill {
+  border-radius: 3px;
+  padding-left: 10px;
+  line-height: 1.8em;
+  background-color: #222;
+  color: #fff;
+  font-size: 1.2em;
+  white-space: nowrap;
+}
+
+[data-width="90"] { width: 90%; }
+[data-width="80"] { width: 80%; }
+[data-width="70"] { width: 70%; }
+[data-width="60"] { width: 60%; }
