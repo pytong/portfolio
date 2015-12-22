@@ -1,3 +1,5 @@
 $(function(){
-  $("body").load("_clicky.html");
+  $.get("_clicky.html", function(data){
+    $(data).appendTo($("body"));
+  });
 });
