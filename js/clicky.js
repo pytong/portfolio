@@ -1,5 +1,5 @@
 $(function(){
   $.get("_clicky.html", function(data){
-    $(data).appendTo($("body"));
+    $("body").append(data);
   });
 });
