@@ -92,7 +92,7 @@ p {
   padding-top: 350px;
 }
 
-.fullstack-projects-intro, .frontend-projects-intro {
+.api-projects-intro, .fullstack-projects-intro, .frontend-projects-intro {
   padding-top: 4em;
   padding-bottom: 4em;
 }
@@ -100,6 +100,11 @@ p {
 .fullstack-projects, .frontend-projects {
   border: solid 1px #F2F2F2;
   margin-bottom: 6em;
+}
+
+.api-projects .picture {
+  line-height: 240px;
+  font-size: 90px;
 }
 
 .project-overlay {
@@ -120,6 +125,7 @@ p {
 
 .project img {
   margin: 0 auto;
+  width: 100%;
 }
 
 .project .title {
