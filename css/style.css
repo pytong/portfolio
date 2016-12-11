@@ -87,9 +87,14 @@ p {
 }
 
 .headerwrap {
-  background: url("../img/GoldenGateBridge.png") no-repeat center top;
+/*  background: url("../img/GoldenGateBridge.png") no-repeat center top;
   margin-top: -30px;
-  padding-top: 350px;
+  padding-top: 350px;*/
+  font-family: "Courier", sans-serif;
+  background: #000;
+  color: #229954;
+  padding: 50px 50px;
+  font-size: 22px;
 }
 
 .api-projects-intro, .fullstack-projects-intro, .frontend-projects-intro {
